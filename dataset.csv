@@ -1,0 +1,352 @@
+Primary Symptoms,Severity Level,Affected Body Parts,Sleep Hours,Recent Travel History,Exposure to Sick People,Disease
+"Fever, Headache",Severe,Stomach,3,No,No,Migraine
+Headache,Moderate,Chest,9,Yes,No,Common Cold
+"Fever, Cough, Headache",Mild,Stomach,7,No,Yes,Bronchitis
+Fever,Moderate,Chest,4,No,Yes,Pneumonia
+Fever,Moderate,Head,4,Yes,No,Pneumonia
+"Cough, Fever",Mild,Head,6,No,Yes,Flu
+Fever,Mild,Stomach,8,Yes,Yes,Flu
+"Fever, Cough",Severe,Stomach,3,No,No,Bronchitis
+"Cough, Headache, Fever",Moderate,Head,6,Yes,No,Common Cold
+"Fever, Headache",Moderate,Head,3,No,No,Bronchitis
+"Headache, Cough, Fever",Moderate,Chest,5,No,Yes,Flu
+Cough,Moderate,Stomach,3,No,No,COVID-19
+Fever,Severe,Stomach,9,Yes,Yes,Bronchitis
+"Headache, Fever",Mild,Head,3,No,Yes,Pneumonia
+"Cough, Fever, Headache",Moderate,Chest,7,No,Yes,Allergy
+Fever,Moderate,Stomach,6,No,No,Bronchitis
+Fever,Moderate,Chest,4,Yes,Yes,Migraine
+"Headache, Fever, Cough",Severe,Head,4,Yes,No,Pneumonia
+Cough,Severe,Chest,3,Yes,No,Allergy
+"Cough, Fever, Headache",Severe,Chest,8,Yes,Yes,Pneumonia
+"Headache, Fever, Cough",Severe,Head,3,No,No,COVID-19
+Fever,Moderate,Stomach,8,Yes,No,COVID-19
+"Headache, Fever, Cough",Moderate,Chest,8,Yes,Yes,Allergy
+"Cough, Headache, Fever",Mild,Stomach,5,No,No,Pneumonia
+"Cough, Headache",Mild,Head,7,Yes,No,Pneumonia
+Cough,Mild,Head,6,No,No,Allergy
+"Fever, Cough, Headache",Severe,Head,8,Yes,Yes,Pneumonia
+Fever,Mild,Stomach,9,Yes,No,Allergy
+Headache,Severe,Chest,10,No,Yes,Migraine
+"Fever, Cough, Headache",Mild,Head,3,Yes,Yes,Common Cold
+Fever,Mild,Stomach,8,Yes,Yes,Allergy
+"Cough, Headache, Fever",Mild,Chest,9,Yes,No,Common Cold
+"Fever, Headache, Cough",Severe,Stomach,10,No,No,Migraine
+Fever,Moderate,Chest,3,No,Yes,Asthma
+"Headache, Cough, Fever",Moderate,Chest,5,No,Yes,COVID-19
+Headache,Moderate,Stomach,3,No,No,COVID-19
+Fever,Moderate,Head,7,No,Yes,Allergy
+"Cough, Headache, Fever",Moderate,Stomach,3,No,No,Flu
+Fever,Severe,Head,5,No,No,Common Cold
+Cough,Severe,Chest,6,No,Yes,Migraine
+"Headache, Fever, Cough",Moderate,Chest,5,No,No,Pneumonia
+"Cough, Fever, Headache",Mild,Stomach,5,No,No,Migraine
+"Headache, Cough, Fever",Mild,Chest,9,No,Yes,Flu
+Fever,Mild,Head,5,Yes,Yes,Allergy
+"Fever, Headache, Cough",Moderate,Head,10,Yes,No,Asthma
+"Fever, Headache, Cough",Mild,Stomach,7,No,Yes,Asthma
+"Headache, Fever, Cough",Severe,Head,10,No,Yes,Flu
+"Headache, Cough, Fever",Severe,Stomach,4,No,Yes,Allergy
+Cough,Mild,Stomach,10,Yes,No,Asthma
+"Fever, Headache, Cough",Mild,Head,4,Yes,Yes,Allergy
+Headache,Moderate,Stomach,9,Yes,No,Flu
+"Headache, Cough",Mild,Stomach,5,No,Yes,Flu
+Fever,Moderate,Chest,10,No,Yes,Allergy
+"Headache, Cough",Moderate,Head,8,Yes,Yes,Pneumonia
+Headache,Moderate,Chest,10,Yes,No,Flu
+"Cough, Headache",Mild,Head,10,Yes,Yes,Flu
+"Headache, Fever",Mild,Chest,7,Yes,Yes,Bronchitis
+Cough,Mild,Chest,9,No,Yes,Pneumonia
+Cough,Mild,Head,8,Yes,No,Migraine
+"Headache, Fever, Cough",Severe,Chest,4,Yes,No,Allergy
+"Headache, Fever, Cough",Severe,Stomach,4,Yes,Yes,Flu
+"Cough, Headache, Fever",Mild,Stomach,5,Yes,Yes,Flu
+"Cough, Fever, Headache",Moderate,Stomach,7,No,Yes,Pneumonia
+"Cough, Fever",Severe,Chest,5,No,Yes,Pneumonia
+Headache,Mild,Chest,6,Yes,No,Pneumonia
+"Fever, Cough, Headache",Mild,Stomach,8,Yes,Yes,Flu
+"Fever, Cough, Headache",Mild,Stomach,6,No,Yes,Pneumonia
+"Cough, Headache, Fever",Severe,Chest,3,Yes,Yes,Common Cold
+Headache,Moderate,Head,10,Yes,Yes,Flu
+Headache,Severe,Chest,8,No,No,Common Cold
+Cough,Severe,Chest,6,No,Yes,Allergy
+Cough,Moderate,Stomach,10,Yes,No,Pneumonia
+"Headache, Fever",Mild,Chest,7,No,Yes,Common Cold
+Headache,Moderate,Stomach,8,No,No,Allergy
+Headache,Severe,Head,4,No,No,Bronchitis
+Headache,Mild,Stomach,9,No,No,Flu
+"Fever, Cough, Headache",Moderate,Head,6,Yes,Yes,Common Cold
+Fever,Severe,Head,7,No,No,Pneumonia
+Headache,Mild,Head,10,No,Yes,COVID-19
+Fever,Severe,Head,3,No,Yes,Flu
+"Fever, Cough, Headache",Mild,Stomach,7,Yes,No,Asthma
+Cough,Moderate,Chest,9,No,Yes,Bronchitis
+"Headache, Cough",Moderate,Stomach,7,Yes,No,Common Cold
+Headache,Moderate,Stomach,10,Yes,Yes,Common Cold
+"Fever, Cough, Headache",Moderate,Stomach,3,No,No,Migraine
+"Cough, Fever",Severe,Stomach,5,No,Yes,Allergy
+"Fever, Headache, Cough",Severe,Chest,7,No,Yes,Common Cold
+"Fever, Cough",Severe,Stomach,5,No,No,Common Cold
+"Headache, Fever, Cough",Mild,Chest,8,No,No,Flu
+Headache,Moderate,Head,5,Yes,Yes,Migraine
+"Fever, Headache, Cough",Severe,Chest,9,No,No,Common Cold
+Headache,Moderate,Head,4,Yes,Yes,Common Cold
+Cough,Severe,Stomach,10,Yes,Yes,Flu
+"Headache, Cough, Fever",Moderate,Head,7,No,Yes,Allergy
+"Headache, Cough",Mild,Stomach,10,No,Yes,Allergy
+"Cough, Fever",Mild,Stomach,10,Yes,Yes,Pneumonia
+"Fever, Cough, Headache",Mild,Stomach,3,No,Yes,Common Cold
+"Cough, Headache, Fever",Moderate,Chest,6,No,Yes,Allergy
+"Headache, Cough",Mild,Stomach,9,Yes,Yes,Flu
+"Cough, Headache, Fever",Mild,Head,7,Yes,No,Pneumonia
+"Headache, Fever, Cough",Severe,Chest,9,No,Yes,Flu
+"Fever, Headache",Severe,Chest,9,Yes,Yes,Bronchitis
+"Headache, Cough",Severe,Head,3,No,Yes,Common Cold
+Headache,Moderate,Chest,3,No,No,Migraine
+Cough,Moderate,Stomach,6,No,No,Migraine
+"Headache, Cough",Severe,Chest,4,No,Yes,Asthma
+"Headache, Cough, Fever",Moderate,Stomach,7,Yes,Yes,Asthma
+"Cough, Fever",Moderate,Chest,9,No,No,Flu
+Cough,Mild,Stomach,9,Yes,Yes,Migraine
+"Fever, Cough, Headache",Severe,Stomach,5,No,No,Pneumonia
+"Cough, Fever",Severe,Chest,5,Yes,No,Asthma
+"Cough, Fever, Headache",Severe,Head,10,Yes,Yes,Allergy
+"Fever, Headache, Cough",Severe,Chest,9,Yes,No,Common Cold
+Headache,Severe,Head,5,No,No,Common Cold
+"Cough, Fever, Headache",Moderate,Stomach,7,Yes,No,Asthma
+"Cough, Fever",Moderate,Head,8,No,Yes,Migraine
+"Cough, Fever, Headache",Moderate,Head,9,Yes,Yes,Flu
+Headache,Mild,Head,10,No,No,Migraine
+"Headache, Cough, Fever",Mild,Head,10,No,No,Allergy
+"Cough, Fever",Moderate,Head,7,No,Yes,Bronchitis
+"Cough, Fever",Severe,Chest,8,Yes,Yes,COVID-19
+"Headache, Fever, Cough",Mild,Stomach,7,No,Yes,Migraine
+"Fever, Headache",Mild,Stomach,6,No,No,COVID-19
+"Cough, Fever",Mild,Chest,4,No,No,COVID-19
+"Headache, Fever, Cough",Moderate,Stomach,3,Yes,Yes,Bronchitis
+"Cough, Fever",Mild,Chest,3,No,Yes,COVID-19
+"Cough, Fever",Mild,Chest,4,No,Yes,COVID-19
+"Headache, Fever",Moderate,Chest,10,No,No,Asthma
+"Headache, Fever",Severe,Chest,4,No,No,COVID-19
+"Headache, Cough, Fever",Severe,Chest,5,Yes,Yes,Allergy
+"Fever, Cough, Headache",Moderate,Head,10,No,No,Migraine
+"Headache, Cough, Fever",Mild,Stomach,4,No,Yes,Common Cold
+"Fever, Cough",Moderate,Stomach,4,No,No,Pneumonia
+Fever,Moderate,Stomach,8,No,Yes,Flu
+"Headache, Cough",Mild,Chest,10,Yes,Yes,Pneumonia
+Fever,Mild,Stomach,8,Yes,No,COVID-19
+"Headache, Cough, Fever",Moderate,Stomach,3,No,Yes,Pneumonia
+"Headache, Cough",Moderate,Stomach,3,Yes,No,Flu
+"Headache, Fever, Cough",Severe,Head,7,Yes,No,Flu
+"Fever, Cough",Mild,Head,5,Yes,Yes,Pneumonia
+"Cough, Headache",Moderate,Head,9,Yes,Yes,Asthma
+Headache,Moderate,Head,3,Yes,No,Common Cold
+"Fever, Headache",Severe,Head,8,No,No,Pneumonia
+"Fever, Headache",Severe,Stomach,7,No,Yes,Bronchitis
+"Headache, Cough, Fever",Moderate,Stomach,6,Yes,No,Allergy
+"Fever, Headache",Mild,Chest,10,Yes,No,Flu
+"Cough, Headache",Severe,Chest,8,Yes,Yes,Common Cold
+Fever,Moderate,Stomach,5,No,Yes,Bronchitis
+"Headache, Cough, Fever",Moderate,Head,5,Yes,No,Bronchitis
+Headache,Severe,Stomach,8,No,No,Pneumonia
+"Fever, Cough, Headache",Moderate,Stomach,5,No,No,Bronchitis
+Headache,Moderate,Stomach,10,No,No,Flu
+Cough,Mild,Head,8,Yes,No,Pneumonia
+"Cough, Fever",Mild,Stomach,3,No,No,Flu
+"Headache, Cough",Moderate,Chest,8,No,No,Flu
+Cough,Mild,Stomach,7,Yes,No,COVID-19
+Fever,Severe,Stomach,8,Yes,Yes,Pneumonia
+"Cough, Fever",Mild,Chest,9,No,No,COVID-19
+"Headache, Fever, Cough",Moderate,Head,10,Yes,No,Migraine
+Cough,Severe,Chest,4,No,No,Pneumonia
+Headache,Mild,Head,9,Yes,Yes,Bronchitis
+"Cough, Fever",Moderate,Stomach,9,No,No,Allergy
+"Headache, Cough",Mild,Head,9,No,Yes,Common Cold
+"Headache, Cough",Moderate,Stomach,3,No,Yes,Pneumonia
+"Cough, Fever",Mild,Stomach,9,Yes,Yes,Asthma
+Headache,Moderate,Stomach,8,No,No,Migraine
+"Cough, Headache",Severe,Chest,7,Yes,No,COVID-19
+"Fever, Cough",Moderate,Head,8,Yes,No,Asthma
+"Cough, Fever, Headache",Mild,Head,3,Yes,No,COVID-19
+"Fever, Headache, Cough",Mild,Head,6,No,Yes,Allergy
+"Headache, Fever, Cough",Moderate,Head,4,Yes,Yes,Allergy
+"Headache, Cough",Severe,Chest,5,No,Yes,Bronchitis
+"Cough, Headache, Fever",Severe,Stomach,9,No,No,Allergy
+Fever,Moderate,Stomach,6,No,Yes,Pneumonia
+"Cough, Headache",Severe,Chest,8,No,Yes,Flu
+"Headache, Fever",Moderate,Chest,6,Yes,No,Allergy
+Headache,Moderate,Head,7,Yes,Yes,Allergy
+"Cough, Fever",Severe,Chest,10,No,No,Migraine
+Headache,Severe,Chest,3,No,No,Asthma
+"Cough, Fever, Headache",Severe,Head,5,No,No,Flu
+"Headache, Cough",Severe,Stomach,7,Yes,No,Asthma
+"Cough, Fever",Moderate,Head,9,No,Yes,Pneumonia
+Cough,Severe,Head,3,No,No,Allergy
+"Fever, Headache, Cough",Moderate,Head,9,Yes,Yes,Bronchitis
+"Headache, Fever",Moderate,Head,9,No,No,Common Cold
+"Headache, Fever",Moderate,Stomach,5,Yes,Yes,Common Cold
+Cough,Mild,Head,3,No,Yes,Asthma
+"Headache, Cough, Fever",Moderate,Stomach,8,Yes,Yes,Allergy
+"Cough, Headache",Severe,Chest,8,Yes,No,Asthma
+Cough,Mild,Head,3,Yes,Yes,Pneumonia
+"Fever, Headache",Severe,Chest,5,No,Yes,Migraine
+"Headache, Cough",Moderate,Chest,7,Yes,Yes,Migraine
+"Headache, Cough, Fever",Moderate,Head,5,Yes,No,Asthma
+"Cough, Headache",Moderate,Stomach,6,Yes,Yes,Common Cold
+"Cough, Headache",Severe,Head,5,No,No,Common Cold
+"Fever, Cough",Severe,Head,4,Yes,No,Bronchitis
+"Cough, Headache, Fever",Moderate,Chest,8,Yes,No,Allergy
+"Cough, Headache",Moderate,Chest,10,Yes,Yes,COVID-19
+"Headache, Fever",Moderate,Stomach,3,No,Yes,Migraine
+"Headache, Fever, Cough",Severe,Chest,10,No,Yes,COVID-19
+Cough,Severe,Stomach,8,Yes,No,Flu
+"Headache, Fever, Cough",Severe,Chest,7,No,No,Bronchitis
+"Headache, Cough",Moderate,Stomach,10,Yes,Yes,Allergy
+Cough,Moderate,Head,5,No,No,Allergy
+"Headache, Fever",Moderate,Chest,3,Yes,Yes,Flu
+Headache,Mild,Chest,3,No,Yes,Pneumonia
+"Headache, Fever",Mild,Head,3,No,Yes,Pneumonia
+"Fever, Headache, Cough",Moderate,Head,10,No,No,Allergy
+"Fever, Cough",Severe,Chest,7,Yes,Yes,Allergy
+Cough,Mild,Stomach,8,No,Yes,Pneumonia
+"Fever, Cough, Headache",Mild,Chest,10,No,Yes,COVID-19
+"Fever, Cough, Headache",Mild,Head,8,Yes,Yes,Flu
+"Cough, Headache",Moderate,Stomach,6,No,Yes,Allergy
+"Fever, Headache, Cough",Moderate,Chest,4,Yes,No,Allergy
+"Cough, Fever, Headache",Mild,Chest,3,Yes,No,Pneumonia
+"Headache, Fever, Cough",Moderate,Head,6,Yes,No,COVID-19
+"Cough, Fever, Headache",Severe,Head,5,No,Yes,Flu
+"Cough, Fever",Mild,Stomach,9,No,Yes,Bronchitis
+Headache,Moderate,Head,4,Yes,Yes,Flu
+"Headache, Fever, Cough",Mild,Chest,4,Yes,Yes,Common Cold
+Fever,Mild,Head,9,No,No,Common Cold
+"Fever, Headache, Cough",Mild,Chest,6,No,Yes,Migraine
+"Fever, Cough, Headache",Severe,Head,9,Yes,Yes,Asthma
+"Headache, Fever, Cough",Moderate,Chest,4,No,Yes,Common Cold
+"Fever, Cough",Moderate,Head,5,No,Yes,COVID-19
+"Fever, Cough, Headache",Severe,Chest,6,Yes,No,Allergy
+Headache,Moderate,Head,9,Yes,Yes,Flu
+"Fever, Cough",Severe,Head,4,No,No,Asthma
+"Fever, Cough",Moderate,Stomach,6,Yes,Yes,Common Cold
+Cough,Moderate,Head,5,No,No,Pneumonia
+Cough,Moderate,Head,5,No,Yes,Flu
+"Headache, Fever, Cough",Moderate,Stomach,3,No,Yes,Allergy
+"Headache, Cough, Fever",Moderate,Head,7,No,No,Flu
+"Fever, Headache, Cough",Mild,Stomach,7,No,No,Migraine
+"Cough, Headache",Moderate,Stomach,7,Yes,No,Allergy
+"Headache, Cough, Fever",Severe,Head,4,No,No,Flu
+Cough,Mild,Stomach,3,No,No,Asthma
+"Headache, Fever, Cough",Severe,Stomach,7,No,Yes,COVID-19
+Headache,Severe,Stomach,10,No,No,COVID-19
+Fever,Mild,Chest,9,Yes,Yes,Common Cold
+"Cough, Headache, Fever",Mild,Stomach,6,Yes,Yes,Common Cold
+"Headache, Cough",Mild,Head,10,No,Yes,Allergy
+"Fever, Headache, Cough",Moderate,Stomach,9,Yes,No,Flu
+Fever,Severe,Chest,9,No,No,Allergy
+"Headache, Cough, Fever",Mild,Chest,3,No,No,Migraine
+Headache,Mild,Head,8,Yes,No,Asthma
+"Cough, Headache",Mild,Head,8,No,Yes,Pneumonia
+"Cough, Fever, Headache",Moderate,Stomach,6,No,No,Allergy
+"Headache, Cough",Moderate,Chest,6,No,Yes,Asthma
+"Fever, Headache",Moderate,Chest,7,Yes,No,Flu
+"Fever, Cough, Headache",Mild,Stomach,9,No,Yes,Asthma
+Headache,Mild,Head,4,Yes,Yes,Asthma
+Cough,Mild,Stomach,4,No,Yes,Allergy
+"Headache, Cough",Mild,Stomach,7,No,No,Pneumonia
+Cough,Mild,Head,4,Yes,Yes,Allergy
+"Headache, Fever",Severe,Head,8,Yes,Yes,Flu
+Headache,Moderate,Head,9,Yes,No,Pneumonia
+"Headache, Cough, Fever",Severe,Head,8,Yes,Yes,Bronchitis
+Headache,Mild,Chest,4,No,Yes,COVID-19
+"Headache, Fever",Severe,Chest,8,Yes,Yes,Bronchitis
+"Fever, Headache",Mild,Stomach,4,Yes,No,Flu
+Headache,Severe,Stomach,9,No,No,Allergy
+"Cough, Headache",Mild,Stomach,4,No,Yes,Bronchitis
+Fever,Severe,Stomach,10,Yes,Yes,Common Cold
+"Fever, Headache, Cough",Mild,Head,8,Yes,No,Bronchitis
+"Headache, Fever, Cough",Severe,Chest,3,Yes,No,Migraine
+"Cough, Fever, Headache",Mild,Chest,9,No,No,Common Cold
+"Fever, Headache, Cough",Severe,Stomach,8,No,Yes,Asthma
+Headache,Mild,Chest,9,Yes,Yes,Allergy
+"Cough, Headache",Severe,Chest,3,Yes,No,Allergy
+"Headache, Cough, Fever",Severe,Chest,3,No,No,Flu
+"Headache, Fever",Moderate,Stomach,8,No,Yes,COVID-19
+Cough,Mild,Head,6,Yes,Yes,Common Cold
+"Fever, Cough",Moderate,Stomach,4,Yes,No,Asthma
+"Headache, Fever, Cough",Severe,Stomach,5,No,No,Common Cold
+Headache,Severe,Chest,9,No,Yes,Flu
+"Cough, Headache, Fever",Moderate,Head,10,Yes,Yes,Asthma
+Cough,Moderate,Head,6,Yes,Yes,Asthma
+Cough,Moderate,Head,10,Yes,Yes,Flu
+"Headache, Cough, Fever",Mild,Stomach,3,No,Yes,Pneumonia
+"Headache, Cough, Fever",Mild,Head,4,Yes,Yes,Asthma
+Fever,Severe,Head,9,Yes,No,Allergy
+Cough,Severe,Stomach,3,No,Yes,Allergy
+Headache,Moderate,Stomach,9,Yes,Yes,Asthma
+"Fever, Headache",Moderate,Head,3,No,No,Pneumonia
+Headache,Moderate,Chest,4,No,Yes,Flu
+"Cough, Fever",Moderate,Chest,8,Yes,Yes,COVID-19
+Cough,Moderate,Chest,3,No,Yes,Asthma
+"Cough, Fever, Headache",Mild,Stomach,8,Yes,No,Allergy
+"Headache, Fever",Severe,Stomach,3,No,Yes,Asthma
+Cough,Severe,Chest,6,No,Yes,COVID-19
+"Headache, Fever, Cough",Moderate,Head,5,No,No,Allergy
+"Fever, Headache, Cough",Moderate,Head,10,Yes,Yes,Allergy
+"Fever, Cough",Mild,Head,7,Yes,No,Flu
+"Fever, Cough",Mild,Chest,10,No,Yes,Flu
+"Headache, Cough, Fever",Mild,Stomach,7,Yes,No,Allergy
+"Headache, Cough, Fever",Mild,Stomach,5,No,No,Flu
+Cough,Severe,Stomach,5,Yes,Yes,Migraine
+"Cough, Fever, Headache",Mild,Stomach,4,Yes,No,Asthma
+"Headache, Fever",Severe,Stomach,4,No,Yes,Common Cold
+Cough,Mild,Head,10,Yes,Yes,Flu
+Cough,Severe,Head,8,No,No,Flu
+Headache,Moderate,Stomach,5,No,Yes,Asthma
+"Fever, Headache",Mild,Head,10,Yes,No,Migraine
+"Headache, Fever, Cough",Severe,Head,3,No,No,Asthma
+Cough,Moderate,Head,5,Yes,Yes,Pneumonia
+"Headache, Fever",Moderate,Chest,6,No,No,Asthma
+"Cough, Fever, Headache",Severe,Head,7,Yes,Yes,Asthma
+"Cough, Fever",Moderate,Head,3,Yes,Yes,Pneumonia
+Headache,Severe,Chest,8,No,Yes,Flu
+Cough,Moderate,Stomach,10,No,No,Migraine
+"Fever, Cough",Severe,Stomach,7,No,No,Bronchitis
+"Headache, Fever",Moderate,Stomach,10,No,No,Migraine
+"Headache, Cough, Fever",Moderate,Head,10,Yes,No,Pneumonia
+Fever,Mild,Head,6,No,Yes,Bronchitis
+Fever,Mild,Stomach,6,Yes,No,Asthma
+"Fever, Cough",Moderate,Head,8,Yes,No,Migraine
+Cough,Severe,Head,9,Yes,No,Common Cold
+"Cough, Headache, Fever",Severe,Head,9,Yes,No,Flu
+"Fever, Cough",Severe,Stomach,4,Yes,Yes,Common Cold
+Headache,Severe,Stomach,7,No,No,Asthma
+Fever,Severe,Chest,3,Yes,Yes,Allergy
+"Cough, Fever",Severe,Stomach,5,No,Yes,Bronchitis
+"Fever, Headache",Severe,Head,5,No,Yes,Allergy
+"Cough, Headache, Fever",Moderate,Chest,4,No,No,Asthma
+Fever,Mild,Chest,3,No,Yes,Bronchitis
+"Headache, Cough",Severe,Chest,4,Yes,No,Bronchitis
+"Cough, Fever",Severe,Head,10,Yes,Yes,Flu
+"Headache, Cough",Mild,Chest,7,No,Yes,Bronchitis
+"Cough, Headache",Severe,Chest,6,Yes,Yes,Pneumonia
+"Fever, Cough, Headache",Mild,Stomach,9,Yes,No,Common Cold
+Fever,Moderate,Chest,7,Yes,No,COVID-19
+Fever,Mild,Chest,10,Yes,Yes,Migraine
+Cough,Severe,Head,6,Yes,No,Flu
+Fever,Severe,Stomach,3,No,Yes,Common Cold
+"Cough, Fever, Headache",Moderate,Head,7,Yes,No,COVID-19
+"Fever, Cough, Headache",Moderate,Chest,5,Yes,No,Allergy
+"Cough, Fever, Headache",Mild,Head,10,No,No,Flu
+"Fever, Cough",Mild,Stomach,9,No,Yes,Pneumonia
+Cough,Mild,Chest,6,Yes,Yes,Asthma
+Fever,Mild,Chest,8,Yes,No,Asthma
+"Headache, Cough",Moderate,Head,7,No,No,Common Cold
+Fever,Moderate,Chest,8,No,Yes,COVID-19
+"Cough, Headache, Fever",Mild,Chest,4,Yes,Yes,Migraine
+Fever,Moderate,Stomach,5,Yes,No,Pneumonia
+Headache,Moderate,Head,9,No,Yes,Bronchitis
+"Cough, Headache",Mild,Stomach,3,No,No,Allergy
+"Headache, Cough, Fever",Mild,Chest,9,No,No,Bronchitis
+"Cough, Headache",Severe,Chest,8,Yes,No,Bronchitis
+    
+    

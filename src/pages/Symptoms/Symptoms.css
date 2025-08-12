@@ -1,0 +1,190 @@
+Import Theme Variables
+:root {
+    --lightgray: #D9D9D9;
+    --gray: #9c9c9c;
+    --orange: #f48915;
+    --darkGrey: #464D53;
+    --caloryCard: #656565;
+    --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    --appColor: #3c3f45;
+  }
+  
+  .symptoms-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--appColor);
+    color: #f48915;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    gap: 2rem;
+    display: flex;
+  
+  }
+
+  .form-section {
+    width: 45%;
+    width: 45%; /* Output box takes 45% of the space */
+    padding: 1.5rem;
+    background: var(--darkGrey);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;    /* background: var(--darkGrey); */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center; 
+    position: relative; 
+     bottom: 50px; 
+    margin-bottom:2px; 
+  }
+  
+
+  .symptoms-form {
+    bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 250%;
+    max-width: 400px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #3c3f45;
+}
+  
+.symptom-input,
+.symptom-select {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: var(--darkGrey);
+  color: white;
+  font-size: 1rem;
+  width: 80%; /* Adjust width as needed */
+  max-width: 400px; /* Prevents it from being too wide */
+  outline: none;
+  text-align: center; /* Centers text inside inputs */
+}
+  
+  .symptom-input::placeholder {
+    color: var(--gray);
+  }
+  
+  .submit-btn {
+    background: var(--planCard);
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background: var(--orange);
+  }
+  
+  .output-box {
+    width: 45%; /* Output box takes 45% of the space */
+    padding: 1.5rem;
+    /* background: var(--darkGrey); */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .output-box h3 {
+    color: var(--orange);
+    margin-bottom: 0.5rem;
+  }
+  
+  .output-box p {
+    font-size: 1.1rem;
+    color: var(--lightgray);
+  }
+  
+  @media (max-width: 768px) {
+    .symptoms-container {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+  
+    .symptoms-form,
+    .output-box {
+      width: 100%;
+    }
+  }
+  .symptom-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 130%;
+    color: #464D53;
+
+  }
+  
+  .symptom-field label {
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    color: #464D53;
+    ;
+  }
+  
+  .symptom-input,
+  .symptom-select {
+    width: 55%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--darkGrey);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .symptom-input::placeholder {
+    color: var(--gray);
+  }
+  
+  .symptom-input, .symptom-select {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--darkGrey);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}

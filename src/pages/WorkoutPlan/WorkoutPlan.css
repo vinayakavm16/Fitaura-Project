@@ -1,0 +1,141 @@
+/* Theme Variables */
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464D53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor: #3c3f45;
+}
+
+/* Container (like .symptoms-container) */
+.workout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--appColor);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  margin: 2rem auto;
+  gap: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* Form section (left) */
+.workout-form {
+  width: 45%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Form heading */
+.workout-form h3 {
+  color: var(--orange);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Labels & fields */
+.workout-form label {
+  display: flex;
+  flex-direction: column;
+  color: var(--darkGrey);
+  font-weight: bold;
+}
+.workout-form select,
+.workout-form input {
+  margin-top: 0.5rem;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: var(--darkGrey);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  text-align: center;
+}
+.workout-form select::placeholder,
+.workout-form input::placeholder {
+  color: var(--gray);
+}
+
+/* Submit button */
+.workout-form button {
+  background: var(--planCard);
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.workout-form button:hover {
+  background: var(--orange);
+}
+
+/* Output section (right) */
+.workout-output {
+  width: 45%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--darkGrey);
+}
+
+/* Output heading */
+.workout-output h4 {
+  color: var(--orange);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Each day block */
+.workout-day {
+  background: #f9f9f9;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+.workout-day h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--appColor);
+}
+.workout-day ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.workout-day li {
+  padding: 0.5rem;
+  border-left: 4px solid var(--orange);
+  margin-bottom: 0.5rem;
+  background: #fff;
+  font-size: 0.95rem;
+  color: var(--darkGrey);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .workout-container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .workout-form,
+  .workout-output {
+    width: 100%;
+  }
+}

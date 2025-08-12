@@ -1,0 +1,148 @@
+.mealplans-head {
+  text-align: center;
+  margin: 40px 0;
+  color: orange;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mealplans-form {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+form {
+  background-color: var(--boxBg);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px var(--boxShadow);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: var(--textColor);
+  margin-bottom: 12px;
+}
+
+form input,
+form select {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+form input:focus,
+form select:focus {
+  border-color: var(--primaryColor);
+}
+
+button {
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #ff8c00;
+  transform: scale(1.05);
+}
+
+.mealplans-results {
+  margin-top: 40px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.mealplans-results h3 {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mealplans-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mealplans-results li {
+  background-color: #ffffff;
+  margin: 1rem 0;
+  padding: 1.2rem;
+  border-left: 6px solid #4caf50;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.mealplans-results li:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.mealplans-results li span {
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mealplans-results li {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .mealplans-form {
+    padding: 20px;
+  }
+
+  form {
+    padding: 25px;
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .mealplans-results {
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+  }
+}

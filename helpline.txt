@@ -1,0 +1,152 @@
+import pandas as pd
+import numpy as np
+import joblib
+import matplotlib.pyplot as plt
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
+import seaborn as sns
+from sklearn.utils import shuffle
+
+# Load and shuffle the dataset
+df = pd.read_csv("latest.csv")
+df = shuffle(df, random_state=42)
+
+# Label Encoding for categorical features
+categorical_cols = ["Severity Level", "Affected Body Parts"]
+encoders = {}
+
+# Define all possible severity levels
+severity_levels = ['low', 'medium', 'high']
+
+# Check for any unexpected severity values
+unique_severity_values = df["Severity Level"].unique()
+print(f"Unique severity values found in the data: {unique_severity_values}")
+for value in unique_severity_values:
+    if value not in severity_levels:
+        print(f"Warning: Found an unexpected severity level value: {value}")
+        severity_levels.append(value)
+
+# Encode severity level
+severity_encoder = LabelEncoder()
+severity_encoder.fit(severity_levels)
+df["Severity Level"] = severity_encoder.transform(df["Severity Level"])
+
+# Encode body parts
+bodypart_encoder = LabelEncoder()
+df["Affected Body Parts"] = bodypart_encoder.fit_transform(df["Affected Body Parts"])
+
+# Save encoders
+encoders["Severity Level"] = severity_encoder
+encoders["Affected Body Parts"] = bodypart_encoder
+
+# Binary encoding for Yes/No
+binary_map = {"Yes": 1, "No": 0}
+df["Recent Travel History"] = df["Recent Travel History"].map(binary_map)
+df["Exposure to Sick People"] = df["Exposure to Sick People"].map(binary_map)
+
+# Encode the target label (Disease)
+target_le = LabelEncoder()
+df["Disease"] = target_le.fit_transform(df["Disease"])
+encoders["Disease"] = target_le
+
+# Feature Engineering
+symptom_cols = [
+    "has_fever", "has_cough", "has_headache", "has_nausea", "has_vomiting",
+    "has_dizziness", "has_chest_pain", "has_stomach_ache",
+    "respiratory_issue", "gastro_issue", "neuro_issue"
+]
+
+# Add missing symptom columns if needed
+for col in symptom_cols:
+    if col not in df.columns:
+        df[col] = 0
+
+df["symptom_severity_score"] = df[symptom_cols].sum(axis=1)
+df["symptom_category_count"] = (
+    (df["neuro_issue"] > 0).astype(int) +
+    (df["gastro_issue"] > 0).astype(int) +
+    (df["respiratory_issue"] > 0).astype(int)
+)
+
+# Drop less important features
+drop_cols = [
+    "has_chest_pain", "gastro_issue", "neuro_issue",
+    "has_stomach_ache", "has_vomiting", "has_dizziness"
+]
+df = df.drop(columns=drop_cols)
+
+# Prepare training data
+X = df.drop(columns=["Disease"])
+y = df["Disease"]
+
+# Split into train/test sets
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, stratify=y, random_state=42
+)
+
+print("Training label distribution:")
+print(y_train.value_counts())
+
+# GridSearchCV to find best model
+param_grid = {
+    "n_estimators": [100],
+    "max_depth": [3, 5],
+    "learning_rate": [0.05, 0.1],
+    "subsample": [0.8, 1.0],
+    "colsample_bytree": [0.8, 1.0]
+}
+
+grid_search = GridSearchCV(
+    estimator=XGBClassifier(eval_metric='mlogloss', use_label_encoder=False, random_state=42),
+    param_grid=param_grid,
+    cv=3,
+    scoring='f1_micro',
+    verbose=1,
+    n_jobs=-1
+)
+
+# Train the model
+grid_search.fit(X_train, y_train)
+model = grid_search.best_estimator_
+
+# Evaluate
+y_pred = model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred, average="micro")
+
+print(f"\n✅ Accuracy: {accuracy:.4f}")
+print(f"✅ F1 Score: {f1:.4f}")
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
+
+# Confusion matrix
+plt.figure(figsize=(10, 6))
+sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d', cmap='Blues')
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.tight_layout()
+plt.show()
+
+# Feature Importances
+importances = model.feature_importances_
+feature_names = X.columns
+sorted_idx = np.argsort(importances)
+
+plt.figure(figsize=(10, 6))
+plt.barh(range(len(importances)), importances[sorted_idx], align='center')
+plt.yticks(np.arange(len(importances)), feature_names[sorted_idx])
+plt.xlabel("Feature Importance")
+plt.title("XGBoost Feature Importances")
+plt.tight_layout()
+plt.show()
+
+# Save model and encoders
+joblib.dump(model, "xgb_model.pkl")
+joblib.dump(encoders["Disease"], "label_encoder.pkl")
+joblib.dump(encoders["Affected Body Parts"], "bodypart_encoder.pkl")
+joblib.dump(encoders["Severity Level"], "severity_encoder.pkl")
+joblib.dump(list(X.columns), "feature_columns.pkl")
+insert above in this and dont chaneg antyyhitg l;ese and give me the complet ecode

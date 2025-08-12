@@ -1,0 +1,350 @@
+Severity Level,Affected Body Parts,Sleep Hours,Recent Travel History,Exposure to Sick People,Disease,has_fever,has_cough,has_headache,has_nausea,has_vomiting,has_dizziness,has_chest_pain,has_stomach_ache,respiratory_issue,gastro_issue,neuro_issue,symptom_count,High_Risk_Flag
+Severe,Stomach,3,No,No,Migraine,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,9,Yes,No,Common Cold,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,7,No,Yes,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,4,No,Yes,Pneumonia,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,4,Yes,No,Pneumonia,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Head,6,No,Yes,Flu,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Stomach,8,Yes,Yes,Flu,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,3,No,No,Bronchitis,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Head,6,Yes,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,3,No,No,Bronchitis,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,5,No,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,3,No,No,COVID-19,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,9,Yes,Yes,Bronchitis,1,0,0,0,0,0,0,0,0,0,0,1,1
+Mild,Head,3,No,Yes,Pneumonia,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,7,No,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,6,No,No,Bronchitis,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,4,Yes,Yes,Migraine,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Head,4,Yes,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,3,Yes,No,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,8,Yes,Yes,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,1
+Severe,Head,3,No,No,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,8,Yes,No,COVID-19,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,8,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,5,No,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,7,Yes,No,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,6,No,No,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Head,8,Yes,Yes,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,1
+Mild,Stomach,9,Yes,No,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,10,No,Yes,Migraine,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,3,Yes,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,8,Yes,Yes,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,9,Yes,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,10,No,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,3,No,Yes,Asthma,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,5,No,Yes,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,3,No,No,COVID-19,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,7,No,Yes,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,3,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,5,No,No,Common Cold,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,6,No,Yes,Migraine,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,5,No,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,5,No,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,9,No,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,5,Yes,Yes,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,10,Yes,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,7,No,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,10,No,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,4,No,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,10,Yes,No,Asthma,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Head,4,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,9,Yes,No,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,5,No,Yes,Flu,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,10,No,Yes,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,8,Yes,Yes,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,10,Yes,No,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,10,Yes,Yes,Flu,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Chest,7,Yes,Yes,Bronchitis,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Chest,9,No,Yes,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Head,8,Yes,No,Migraine,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,4,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,4,Yes,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,1
+Mild,Stomach,5,Yes,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,7,No,Yes,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,5,No,Yes,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Chest,6,Yes,No,Pneumonia,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,8,Yes,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,6,No,Yes,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,3,Yes,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,1
+Moderate,Head,10,Yes,Yes,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,8,No,No,Common Cold,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,6,No,Yes,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,10,Yes,No,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,7,No,Yes,Common Cold,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,8,No,No,Allergy,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Head,4,No,No,Bronchitis,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,9,No,No,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,6,Yes,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,7,No,No,Pneumonia,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Head,10,No,Yes,COVID-19,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Head,3,No,Yes,Flu,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,7,Yes,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,9,No,Yes,Bronchitis,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,7,Yes,No,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,10,Yes,Yes,Common Cold,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,3,No,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,5,No,Yes,Allergy,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Chest,7,No,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,5,No,No,Common Cold,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Chest,8,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,5,Yes,Yes,Migraine,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,9,No,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,4,Yes,Yes,Common Cold,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,10,Yes,Yes,Flu,0,1,0,0,0,0,0,0,0,0,0,1,1
+Moderate,Head,7,No,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,10,No,Yes,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Stomach,10,Yes,Yes,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Stomach,3,No,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,6,No,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,9,Yes,Yes,Flu,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,7,Yes,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,9,No,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,9,Yes,Yes,Bronchitis,1,0,1,0,0,0,0,0,0,0,0,2,1
+Severe,Head,3,No,Yes,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,3,No,No,Migraine,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,6,No,No,Migraine,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,4,No,Yes,Asthma,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,7,Yes,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,9,No,No,Flu,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Stomach,9,Yes,Yes,Migraine,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,5,No,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,5,Yes,No,Asthma,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Head,10,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,1
+Severe,Chest,9,Yes,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,5,No,No,Common Cold,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,7,Yes,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,8,No,Yes,Migraine,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Head,9,Yes,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,10,No,No,Migraine,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,10,No,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,7,No,Yes,Bronchitis,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Chest,8,Yes,Yes,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,1
+Mild,Stomach,7,No,Yes,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,6,No,No,COVID-19,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Chest,4,No,No,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Stomach,3,Yes,Yes,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,3,No,Yes,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Chest,4,No,Yes,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Chest,10,No,No,Asthma,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,4,No,No,COVID-19,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,5,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,1
+Moderate,Head,10,No,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,4,No,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,4,No,No,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Stomach,8,No,Yes,Flu,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,10,Yes,Yes,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Stomach,8,Yes,No,COVID-19,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,3,No,Yes,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,3,Yes,No,Flu,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,7,Yes,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,5,Yes,Yes,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Head,9,Yes,Yes,Asthma,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,3,Yes,No,Common Cold,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Head,8,No,No,Pneumonia,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Stomach,7,No,Yes,Bronchitis,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,6,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,10,Yes,No,Flu,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,8,Yes,Yes,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,1
+Moderate,Stomach,5,No,Yes,Bronchitis,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,5,Yes,No,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,8,No,No,Pneumonia,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,5,No,No,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,10,No,No,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,8,Yes,No,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,3,No,No,Flu,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Chest,8,No,No,Flu,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Stomach,7,Yes,No,COVID-19,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,8,Yes,Yes,Pneumonia,1,0,0,0,0,0,0,0,0,0,0,1,1
+Mild,Chest,9,No,No,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Head,10,Yes,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,4,No,No,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Head,9,Yes,Yes,Bronchitis,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,9,No,No,Allergy,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Head,9,No,Yes,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,3,No,Yes,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Stomach,9,Yes,Yes,Asthma,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Stomach,8,No,No,Migraine,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,7,Yes,No,COVID-19,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,8,Yes,No,Asthma,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Head,3,Yes,No,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,6,No,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,4,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,5,No,Yes,Bronchitis,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Stomach,9,No,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,6,No,Yes,Pneumonia,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,8,No,Yes,Flu,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,6,Yes,No,Allergy,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,7,Yes,Yes,Allergy,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,10,No,No,Migraine,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Chest,3,No,No,Asthma,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Head,5,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,7,Yes,No,Asthma,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,9,No,Yes,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Head,3,No,No,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,9,Yes,Yes,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,9,No,No,Common Cold,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,5,Yes,Yes,Common Cold,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,3,No,Yes,Asthma,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,8,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,8,Yes,No,Asthma,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,3,Yes,Yes,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,5,No,Yes,Migraine,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,7,Yes,Yes,Migraine,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,5,Yes,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,6,Yes,Yes,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,5,No,No,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,4,Yes,No,Bronchitis,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Chest,8,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,10,Yes,Yes,COVID-19,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,3,No,Yes,Migraine,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,10,No,Yes,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,8,Yes,No,Flu,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,7,No,No,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,10,Yes,Yes,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,5,No,No,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,3,Yes,Yes,Flu,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Chest,3,No,Yes,Pneumonia,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,3,No,Yes,Pneumonia,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,10,No,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,7,Yes,Yes,Allergy,1,1,0,0,0,0,0,0,1,0,0,2,1
+Mild,Stomach,8,No,Yes,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,10,No,Yes,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,8,Yes,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,6,No,Yes,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,4,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,3,Yes,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,6,Yes,No,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,5,No,Yes,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,9,No,Yes,Bronchitis,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Head,4,Yes,Yes,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,4,Yes,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,9,No,No,Common Cold,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,6,No,Yes,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,9,Yes,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,1
+Moderate,Chest,4,No,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,5,No,Yes,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Chest,6,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,9,Yes,Yes,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Head,4,No,No,Asthma,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Stomach,6,Yes,Yes,Common Cold,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Head,5,No,No,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,5,No,Yes,Flu,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,3,No,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,7,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,7,No,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,7,Yes,No,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,4,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,3,No,No,Asthma,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,7,No,Yes,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,10,No,No,COVID-19,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,9,Yes,Yes,Common Cold,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,6,Yes,Yes,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,10,No,Yes,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,9,Yes,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,9,No,No,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,3,No,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,8,Yes,No,Asthma,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,8,No,Yes,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Stomach,6,No,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,6,No,Yes,Asthma,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,7,Yes,No,Flu,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Stomach,9,No,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,4,Yes,Yes,Asthma,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,4,No,Yes,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,7,No,No,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,4,Yes,Yes,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Head,8,Yes,Yes,Flu,1,0,1,0,0,0,0,0,0,0,0,2,1
+Moderate,Head,9,Yes,No,Pneumonia,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Head,8,Yes,Yes,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,1
+Mild,Chest,4,No,Yes,COVID-19,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,8,Yes,Yes,Bronchitis,1,0,1,0,0,0,0,0,0,0,0,2,1
+Mild,Stomach,4,Yes,No,Flu,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Stomach,9,No,No,Allergy,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,4,No,Yes,Bronchitis,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Stomach,10,Yes,Yes,Common Cold,1,0,0,0,0,0,0,0,0,0,0,1,1
+Mild,Head,8,Yes,No,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,3,Yes,No,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,9,No,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,8,No,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,9,Yes,Yes,Allergy,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,3,Yes,No,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,3,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,8,No,Yes,COVID-19,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,6,Yes,Yes,Common Cold,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,4,Yes,No,Asthma,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Stomach,5,No,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,9,No,Yes,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,10,Yes,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,6,Yes,Yes,Asthma,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,10,Yes,Yes,Flu,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,3,No,Yes,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,4,Yes,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Head,9,Yes,No,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,3,No,Yes,Allergy,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,9,Yes,Yes,Asthma,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,3,No,No,Pneumonia,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,4,No,Yes,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,8,Yes,Yes,COVID-19,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Chest,3,No,Yes,Asthma,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,8,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,3,No,Yes,Asthma,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,6,No,Yes,COVID-19,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,5,No,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,10,Yes,Yes,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,7,Yes,No,Flu,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Chest,10,No,Yes,Flu,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Stomach,7,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,5,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,5,Yes,Yes,Migraine,0,1,0,0,0,0,0,0,0,0,0,1,1
+Mild,Stomach,4,Yes,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,4,No,Yes,Common Cold,1,0,1,0,0,0,0,0,0,0,0,2,0
+Mild,Head,10,Yes,Yes,Flu,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Head,8,No,No,Flu,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,5,No,Yes,Asthma,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Head,10,Yes,No,Migraine,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,3,No,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Head,5,Yes,Yes,Pneumonia,0,1,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Chest,6,No,No,Asthma,1,0,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,7,Yes,Yes,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,1
+Moderate,Head,3,Yes,Yes,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Chest,8,No,Yes,Flu,0,0,1,0,0,0,0,0,0,0,0,1,0
+Moderate,Stomach,10,No,No,Migraine,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,7,No,No,Bronchitis,1,1,0,0,0,0,0,0,1,0,0,2,0
+Moderate,Stomach,10,No,No,Migraine,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Head,10,Yes,No,Pneumonia,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,6,No,Yes,Bronchitis,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,6,Yes,No,Asthma,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,8,Yes,No,Migraine,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Head,9,Yes,No,Common Cold,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Head,9,Yes,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Stomach,4,Yes,Yes,Common Cold,1,1,0,0,0,0,0,0,1,0,0,2,1
+Severe,Stomach,7,No,No,Asthma,0,0,1,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,3,Yes,Yes,Allergy,1,0,0,0,0,0,0,0,0,0,0,1,1
+Severe,Stomach,5,No,Yes,Bronchitis,1,1,0,0,0,0,0,0,1,0,0,2,0
+Severe,Head,5,No,Yes,Allergy,1,0,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,4,No,No,Asthma,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Chest,3,No,Yes,Bronchitis,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Chest,4,Yes,No,Bronchitis,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Head,10,Yes,Yes,Flu,1,1,0,0,0,0,0,0,1,0,0,2,1
+Mild,Chest,7,No,Yes,Bronchitis,0,1,1,0,0,0,0,0,0,0,0,2,0
+Severe,Chest,6,Yes,Yes,Pneumonia,0,1,1,0,0,0,0,0,0,0,0,2,1
+Mild,Stomach,9,Yes,No,Common Cold,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,7,Yes,No,COVID-19,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,10,Yes,Yes,Migraine,1,0,0,0,0,0,0,0,0,0,0,1,0
+Severe,Head,6,Yes,No,Flu,0,1,0,0,0,0,0,0,0,0,0,1,0
+Severe,Stomach,3,No,Yes,Common Cold,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,7,Yes,No,COVID-19,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Chest,5,Yes,No,Allergy,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Head,10,No,No,Flu,1,1,1,0,0,0,0,0,1,0,0,3,0
+Mild,Stomach,9,No,Yes,Pneumonia,1,1,0,0,0,0,0,0,1,0,0,2,0
+Mild,Chest,6,Yes,Yes,Asthma,0,1,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,8,Yes,No,Asthma,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,7,No,No,Common Cold,0,1,1,0,0,0,0,0,0,0,0,2,0
+Moderate,Chest,8,No,Yes,COVID-19,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mild,Chest,4,Yes,Yes,Migraine,1,1,1,0,0,0,0,0,1,0,0,3,0
+Moderate,Stomach,5,Yes,No,Pneumonia,1,0,0,0,0,0,0,0,0,0,0,1,0
+Moderate,Head,9,No,Yes,Bronchitis,0,0,1,0,0,0,0,0,0,0,0,1,0
+Mild,Stomach,3,No,No,Allergy,0,1,1,0,0,0,0,0,0,0,0,2,0
+Mild,Chest,9,No,No,Bronchitis,1,1,1,0,0,0,0,0,1,0,0,3,0
+Severe,Chest,8,Yes,No,Bronchitis,0,1,1,0,0,0,0,0,0,0,0,2,0

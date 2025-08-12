@@ -1,0 +1,39 @@
+.div-head {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nutrition-body {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.nutrition-box {
+    width: 300px;
+    height: 320px;
+    background-color: var(--boxBg);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px var(--boxShadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--textColor);
+    text-align: center;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.nutrition-box:hover {
+    background-color: var(--primaryColor);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px var(--hoverShadow);
+    color: white;
+}
